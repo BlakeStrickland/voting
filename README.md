@@ -6,4 +6,4 @@ An API that gives you access to candidate, voter and vote information.
 
 ## Register as a voter
 
-## Cast a vote
+## Casting a vote
