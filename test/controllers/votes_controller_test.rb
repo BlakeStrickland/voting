@@ -2,7 +2,7 @@ require 'test_helper'
 
 class VotesControllerTest < ActionController::TestCase
   test "should get create" do
-    get :create
+    get :create, voter_id: votes(:one).voter_id, candidate_id: votes(:one).candidate_id
     assert_response :success
   end
 

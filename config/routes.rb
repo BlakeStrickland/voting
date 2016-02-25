@@ -1,17 +1,17 @@
 Rails.application.routes.draw do
   root 'candidates#index'
-  
-  get 'votes/create'
-  get 'votes/destroy'
+
+  post 'votes/create'
+  delete 'votes/destroy'
   get 'votes/index'
 
-  get 'voters/create'
+  post 'voters/create'
   get 'voters/show'
-  get 'voters/update'
+  patch 'voters/update'
 
   get 'candidates/index'
   get 'candidates/show'
-  get 'candidates/create'
+  post 'candidates/create'
 
 
 
