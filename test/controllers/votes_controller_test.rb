@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class VoteControllerTest < ActionController::TestCase
+class VotesControllerTest < ActionController::TestCase
   test "should get create" do
     get :create
     assert_response :success
